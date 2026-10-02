@@ -3,7 +3,7 @@ locale = 'en-us'
 title = 'Digital Fabrication Project'
 theme = "hugo-theme-nix"
 languageCode = "en-us"
-disqusShortname = "your_disqus_shortname"
+
 
 [menu]
   [[menu.header]]
@@ -22,8 +22,7 @@ disqusShortname = "your_disqus_shortname"
  
   Name = "Ata"
   HeaderUsername = "Ata"
-  HeaderHostname = "gohugo.io"
-  Email = "your_email"
+  Email = "ata.alaca@hisarschool.k12.tr"
   About = "Hi I'm Ata and this is my website. I am a digital fabrication student."
   ProfilePicture = "/profile.jpg"
   Favicon = "/favicon.ico"
