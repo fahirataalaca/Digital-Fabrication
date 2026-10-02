@@ -2,26 +2,18 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'Digital Fabrication Project'
 theme = "hugo-theme-nix"
-languageCode = "en-us"
-
 
 [menu]
   [[menu.header]]
-    name = "post"
+    name = "assignments"
     weight = 0
-    url = "post"
-  [[menu.header]]
-    name = "about"
-    weight = 1
-    url = "about"
+    pageRef = "/posts"
 
 [params]
-  GithubID = "your_github"
- 
-
- 
+  GithubID = "fahirataalaca"
   Name = "Ata"
   HeaderUsername = "Ata"
+  HeaderHostname = "ideaLab"
   Email = "ata.alaca@hisarschool.k12.tr"
   About = "Hi I'm Ata and this is my website. I am a digital fabrication student."
   ProfilePicture = "/profile.jpg"
