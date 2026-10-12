@@ -23,10 +23,7 @@ This week I designed a model rocket in Fusion 360. The rocket is made of separat
 
 ## Files
 
-- [Body parts (STL)](/Digital-Fabrication/files/body.stl)
-- [Fins (STL)](/Digital-Fabrication/files/fins.stl)
-- [Other parts (STL)](/Digital-Fabrication/files/other-parts.stl)
-- [Pins (STL)](/Digital-Fabrication/files/pins.stl)
+- [Rocket 3D files (ZIP)](/Digital-Fabrication/files/rocket-stl.zip)
 
 ## HISAR CS body
 
