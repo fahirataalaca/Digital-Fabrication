@@ -18,3 +18,6 @@ theme = "hugo-theme-nix"
   About = "Hi I'm Ata and this is my website. I am a digital fabrication student."
   ProfilePicture = "/profile.jpg"
   Favicon = "/favicon.ico"
+
+[markup.goldmark.renderer]
+  unsafe = true
