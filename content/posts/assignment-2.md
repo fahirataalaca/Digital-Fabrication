@@ -7,8 +7,6 @@ title = 'Assignment 2'
 
 This week I designed a model rocket in Fusion 360. The rocket is made of separate parts that are joined with pins, so each part can be printed on its own and assembled afterwards. All dimensions are in mm.
 
-![Rocket parts in Fusion 360](/Digital-Fabrication/images/rocket-parts.png)
-
 | Part | Quantity |
 |---|---|
 | HISAR CS body (engraved) | 1 |
@@ -23,11 +21,18 @@ This week I designed a model rocket in Fusion 360. The rocket is made of separat
 | Medium pins | 3 |
 | Large pins | 4 |
 
+## Files
+
+- [Body parts (STL)](/Digital-Fabrication/files/body.stl)
+- [Fins (STL)](/Digital-Fabrication/files/fins.stl)
+- [Other parts (STL)](/Digital-Fabrication/files/other-parts.stl)
+- [Pins (STL)](/Digital-Fabrication/files/pins.stl)
+
 ## HISAR CS body
 
 <img src="/Digital-Fabrication/images/hisar-cs-body.png" style="float:right; width:150px; margin:0 0 12px 16px;">
 
-Diameter 30, length 60, with "HISAR CS" engraved on the side. A 9 hole goes 8 deep from both the top and the bottom.
+Diameter 30 mm, length 60 mm, with "HISAR CS" engraved on the side. A 9 mm hole goes 8 mm deep from both the top and the bottom.
 
 <div style="clear:both"></div>
 
@@ -35,7 +40,7 @@ Diameter 30, length 60, with "HISAR CS" engraved on the side. A 9 hole goes 8 de
 
 <img src="/Digital-Fabrication/images/fin-body.png" style="float:right; width:150px; margin:0 0 12px 16px;">
 
-Diameter 30, length 40. A 9 hole goes 6 deep from the bottom only. It also has side holes for the fins: 4 in diameter, at 5 and 12 from the bottom, matching the holes in the fins.
+Diameter 30 mm, length 40 mm. A 9 mm hole goes 6 mm deep from the bottom only. It also has side holes for the fins: 4 mm in diameter, at 5 mm and 12 mm from the bottom, matching the holes in the fins.
 
 <div style="clear:both"></div>
 
@@ -43,7 +48,7 @@ Diameter 30, length 40. A 9 hole goes 6 deep from the bottom only. It also has s
 
 <img src="/Digital-Fabrication/images/short-body.png" style="float:right; width:150px; margin:0 0 12px 16px;">
 
-Diameter 30, length 15, with a 9 hole going all the way through.
+Diameter 30 mm, length 15 mm, with a 9 mm hole going all the way through.
 
 <div style="clear:both"></div>
 
@@ -51,7 +56,7 @@ Diameter 30, length 15, with a 9 hole going all the way through.
 
 <img src="/Digital-Fabrication/images/narrow-body-tube.png" style="float:right; width:150px; margin:0 0 12px 16px;">
 
-Diameter 15, length 40. A 7.50 hole goes 7.70 deep from the top, and a 2.10 hole goes 8 deep from the bottom.
+Diameter 15 mm, length 40 mm. A 7.50 mm hole goes 7.70 mm deep from the top, and a 2.10 mm hole goes 8 mm deep from the bottom.
 
 <div style="clear:both"></div>
 
@@ -59,7 +64,7 @@ Diameter 15, length 40. A 7.50 hole goes 7.70 deep from the top, and a 2.10 hole
 
 <img src="/Digital-Fabrication/images/wide-cone.png" style="float:right; width:150px; margin:0 0 12px 16px;">
 
-A loft from diameter 30 at the bottom to 15 at the top, 15 tall, with a 9 hole through the middle.
+A loft from a diameter of 30 mm at the bottom to 15 mm at the top, 15 mm tall, with a 9 mm hole through the middle.
 
 <div style="clear:both"></div>
 
@@ -67,7 +72,7 @@ A loft from diameter 30 at the bottom to 15 at the top, 15 tall, with a 9 hole t
 
 <img src="/Digital-Fabrication/images/narrow-cone.png" style="float:right; width:150px; margin:0 0 12px 16px;">
 
-A loft from diameter 15 at the bottom to 9 at the top, 16.60 tall, with a 4.30 hole through the middle.
+A loft from a diameter of 15 mm at the bottom to 9 mm at the top, 16.60 mm tall, with a 4.30 mm hole through the middle.
 
 <div style="clear:both"></div>
 
@@ -75,7 +80,7 @@ A loft from diameter 15 at the bottom to 9 at the top, 16.60 tall, with a 4.30 h
 
 <img src="/Digital-Fabrication/images/tip.png" style="float:right; width:150px; margin:0 0 12px 16px;">
 
-A cylinder of diameter 4.50 and length 22.6, with a cone on top that goes from 4.50 to a sharp point over 30.
+A cylinder 4.50 mm in diameter and 22.6 mm long, with a cone on top that goes from 4.50 mm to a sharp point over 30 mm.
 
 <div style="clear:both"></div>
 
@@ -83,7 +88,7 @@ A cylinder of diameter 4.50 and length 22.6, with a cone on top that goes from 4
 
 <img src="/Digital-Fabrication/images/fins.png" style="float:right; width:150px; margin:0 0 12px 16px;">
 
-Each fin is a right triangle, 15.30 by 35.2, and 7.70 thick. It has two holes of diameter 4 (the same as the small pins), 4.60 deep, at 5 and 12 from the bottom of the fin. The small pins go into these holes and into the side holes of the fin body.
+Each fin is a right triangle, 15.30 mm by 35.2 mm, and 7.70 mm thick. It has two 4 mm holes (the same diameter as the small pins), 4.60 mm deep, at 5 mm and 12 mm from the bottom of the fin. The small pins go into these holes and into the side holes of the fin body.
 
 <div style="clear:both"></div>
 
@@ -91,6 +96,6 @@ Each fin is a right triangle, 15.30 by 35.2, and 7.70 thick. It has two holes of
 
 | Pin | Quantity | Diameter | Length |
 |---|---|---|---|
-| Small | 8 | 4 | 9.3 |
-| Medium | 3 | 4.5 | 15.40 |
-| Large | 4 | 9 | 15 |
+| Small | 8 | 4 mm | 9.3 mm |
+| Medium | 3 | 4.5 mm | 15.40 mm |
+| Large | 4 | 9 mm | 15 mm |
