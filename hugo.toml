@@ -16,7 +16,7 @@ theme = "hugo-theme-nix"
   HeaderHostname = "ideaLab"
   Email = "ata.alaca@hisarschool.k12.tr"
   About = "Hi I'm Ata and this is my website. I am a digital fabrication student."
-  ProfilePicture = "/profile.jpg"
+  ProfilePicture = "profile.jpg"
   Favicon = "/favicon.ico"
 
 [markup.goldmark.renderer]
