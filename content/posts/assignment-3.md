@@ -22,7 +22,7 @@ This week I designed a cardboard box to store and carry the model rocket from [A
 
 I started from the main 105 mm x 54 mm face at the centre of the sketch, using a centre-point rectangle so the whole net stays symmetric about the origin. The other three long faces stack above and below it, and the 17 mm glue flap at the top closes the tube. The two 54 mm x 54 mm end faces sit on the left and right.
 
-The whole flat net is 327 mm x 233 mm. I fully constrained the sketch with dimensions, so one value can be changed later if the rocket size changes.
+The whole flat net is 327 mm x 233 mm.
 
 <div style="clear:both"></div>
 
