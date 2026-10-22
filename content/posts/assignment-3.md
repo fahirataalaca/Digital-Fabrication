@@ -3,45 +3,43 @@ date = '2026-10-22T23:45:00+03:00'
 draft = false
 title = 'Assignment 3'
 +++
-## Goal
+## Overview
 
-Design a box to hold the rocket, drawn as a flat net that folds into a closed rectangular box.
+This week I designed a cardboard box to store and carry the model rocket from [Assignment 2](/Digital-Fabrication/posts/assignment-2/). I drew the box as a flat net in Fusion 360, cut it on the laser cutter, and folded it into a 105 mm x 54 mm x 54 mm box. The ends close with tuck flaps, so the box can be opened and closed again without tape.
 
-## Design
+| Part of the net | Quantity | Size |
+|---|---|---|
+| Main faces | 4 | 105 mm x 54 mm |
+| End faces | 2 | 54 mm x 54 mm |
+| Glue flap | 1 | 105 mm x 17 mm |
+| Dust flaps | 4 | 54 mm to 44 mm, 25 mm tall |
+| Tuck flap necks | 2 | 14 mm tall |
+| Tuck flaps | 2 | 43 mm x 46 mm |
 
-I sketched the net as a 2D sketch in Fusion 360. The box is a rectangular prism, 105 mm long with a 54 mm x 54 mm square cross-section.
+## Net design
 
-![Flat net of the rocket box in Fusion 360](/Digital-Fabrication/assignment-3/box-sketch.png)
+<img src="/Digital-Fabrication/images/box-sketch.png" style="float:right; width:200px; margin:0 0 12px 16px;">
 
-### Parts of the net
+I started from the main 105 mm x 54 mm face at the centre of the sketch, using a centre-point rectangle so the whole net stays symmetric about the origin. The other three long faces stack above and below it, and the 17 mm glue flap at the top closes the tube. The two 54 mm x 54 mm end faces sit on the left and right.
 
-| Part | Shape | Dimensions | Purpose |
-|---|---|---|---|
-| Main faces (x4) | Rectangle | 105 mm x 54 mm | The four long sides that wrap around the rocket |
-| Glue flap | Rectangle | 105 mm x 17 mm | Joins the last long face to the first to close the tube |
-| End faces (x2) | Square | 54 mm x 54 mm | Close the two ends of the box |
-| Dust flaps (x4) | Trapezoid | Bases 54 mm and 44 mm, height 25 mm | Fold in under the end faces to keep them square and stop gaps |
-| Tuck flap necks (x2) | Trapezoid | Height 14 mm | Connect each end face to its tuck flap |
-| Tuck flaps (x2) | Rectangle | 43 mm x 46 mm | Slide inside the box to hold each end shut |
+The whole flat net is 327 mm x 233 mm. I fully constrained the sketch with dimensions, so one value can be changed later if the rocket size changes.
 
-The dust flaps and tuck flaps are narrower than the faces they attach to (44 mm and 46 mm instead of 54 mm). This leaves clearance so they slide in without catching on the inside walls once the box is folded.
+<div style="clear:both"></div>
 
-Overall size of the flat net: 327 mm x 233 mm.
+## Flaps
 
-### Design process
+The four trapezoid dust flaps fold in under the end faces to keep them square. Each end face then closes with a 14 mm tapered neck and a 43 mm x 46 mm tuck flap that slides inside the box.
 
-1. Started from the main 105 mm x 54 mm face at the centre of the sketch and used a centre-point rectangle so the whole net stays symmetric about the origin.
-2. Stacked the other three long faces and the 17 mm glue flap above and below it.
-3. Added the two 54 mm x 54 mm end faces on the left and right, then the tapered necks and tuck flaps.
-4. Added the four trapezoid dust flaps on the sides of the long faces.
-5. Fully constrained the sketch with dimensions so a single value can be changed later if the rocket size changes.
+The dust flaps (44 mm) and tuck flaps (46 mm) are narrower than the 54 mm faces they attach to. This leaves clearance so they slide in without catching on the inside walls.
 
-## Fabrication
+## Laser cutting
 
-I cut the net out of cardboard on the laser cutter. The outline was set to cut all the way through, and the fold lines were set to score, so the laser only marked the surface. This let the cardboard fold cleanly along each line without separating.
+I cut the net out of cardboard on the laser cutter using two operations. The outline was set to cut all the way through, and the fold lines were set to score, so the laser only marked the surface. This let the cardboard fold cleanly along each line without separating.
 
 ## Result
 
-The folded box made from brown cardboard, holding the 3D-printed rocket parts: body sections, fins, and nose cone.
+<img src="/Digital-Fabrication/images/box-photo.jpg" style="float:right; width:200px; margin:0 0 12px 16px;">
 
-![Finished cardboard box holding the rocket parts](/Digital-Fabrication/assignment-3/box-photo.jpg)
+The finished box holds all the 3D-printed rocket parts: the body sections, fins, and cones. The tuck flaps keep both ends closed, and the lid opens fully to take the parts in and out.
+
+<div style="clear:both"></div>
