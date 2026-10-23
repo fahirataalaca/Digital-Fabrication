@@ -43,3 +43,7 @@ I cut the net out of cardboard on the laser cutter using two operations. The out
 The finished box holds all the 3D-printed rocket parts: the body sections, fins, and cones. The tuck flaps keep both ends closed, and the lid opens fully to take the parts in and out.
 
 <div style="clear:both"></div>
+
+## Design Files
+
+[Download the design files (.zip)](/Digital-Fabrication/files/assignment-3-files.zip): `cut2.dxf` (cut lines), `score2.dxf` (score lines) and `Laser_Cut_Box.stl` (3D model).
